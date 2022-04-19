@@ -25,8 +25,12 @@ where n and m are natural numbers
 """
 if __name__ == "__main__":
 
-    # Get console arguments
-    args = [int(arg) for arg in sys.argv[1:] if (arg.isnumeric() and (int(arg) > 0))]
+    try:
+        # Get console arguments
+        args = [int(arg) for arg in sys.argv[1:] if (arg.isnumeric() and (int(arg) > 0))]
 
-    # show the result
-    print(get_natural_common_multiples(*args))
+        # show the result
+        print(get_natural_common_multiples(*args))
+
+    except TypeError:
+        print("Wrong input. You need to enter natural numbers")

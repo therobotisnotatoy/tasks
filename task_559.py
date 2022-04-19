@@ -51,11 +51,15 @@ to run from console try: python3 task_559.py n
 where n is natural number
 """
 if __name__ == "__main__":
-    # Get console arguments
-    try:
-        args = [int(arg) for arg in sys.argv[1:] if (arg.isnumeric() and (int(arg) > 0))]
-    except Exception:
-        print(Exception)
 
-    # show the result
-    print(get_mersen_sequence_limited_by_natural_number(*args))
+    try:
+        # Get console arguments
+        args = [int(arg) for arg in sys.argv[1:] if (arg.isnumeric() and (int(arg) > 0))]
+
+        # show the result
+        print(get_mersen_sequence_limited_by_natural_number(*args))
+
+    except TypeError:
+        print("Wrong input. You need to enter natural number")
+
+

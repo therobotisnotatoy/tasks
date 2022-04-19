@@ -22,8 +22,12 @@ m - number of digits to count the sum (from the end)
 """
 if __name__ == "__main__":
 
-    # Get console arguments
-    args = [int(arg) for arg in sys.argv[1:] if (arg.isnumeric() and (int(arg) > 0))]
+    try:
+        # Get console arguments
+        args = [int(arg) for arg in sys.argv[1:] if (arg.isnumeric() and (int(arg) > 0))]
 
-    # show the result
-    print(get_sum_of_lasts_few(*args))
+        # show the result
+        print(get_sum_of_lasts_few(*args))
+
+    except TypeError:
+        print("Wrong input. You need to enter natural numbers")
