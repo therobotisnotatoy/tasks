@@ -3,6 +3,7 @@
 Мерсена. (Простое число называется числом Мерсена, если оно может
 быть представлено в виде 2^p – 1, где р – тоже простое число.)
 """
+import sys
 
 
 # Sieve of Eratosthenes Algorithm
@@ -28,30 +29,8 @@ def sieve_of_eratosthenes(target: int) -> list[int]:
     return result
 
 
-# get all natural numbers less than given position of "basic" Mersen sequence
-def get_natural_numbers_limited_by_mersen_number(position: int) -> list[int]:
-
-    target = pow(2, position) - 1
-
-    return sieve_of_eratosthenes(target)
-
-
-# get (limited) "basic" Mersen sequence
-def get_mersen_number_limited_by_natural_number_1(limit: int):
-    position = 1
-    mersen = 1
-    result = []
-
-    while mersen < limit:
-        position += 1
-        result.append(mersen)
-        mersen = pow(2, position) - 1
-
-    return result
-
-
 # get (limited) Mersen sequence with simple indexes
-def get_mersen_number_limited_by_natural_number_2(limit: int) -> list[int]:
+def get_mersen_sequence_limited_by_natural_number(limit: int) -> list[int]:
 
     result = []
 
@@ -67,15 +46,16 @@ def get_mersen_number_limited_by_natural_number_2(limit: int) -> list[int]:
     return result
 
 
+"""
+to run from console try: python3 task_559.py n
+where n is natural number
+"""
 if __name__ == "__main__":
+    # Get console arguments
+    try:
+        args = [int(arg) for arg in sys.argv[1:] if (arg.isnumeric() and (int(arg) > 0))]
+    except Exception:
+        print(Exception)
 
-    print(get_mersen_number_limited_by_natural_number_1(8388608))
-    print(get_mersen_number_limited_by_natural_number_2(8388608))
-
-    print(get_natural_numbers_limited_by_mersen_number(1))
-    print(get_natural_numbers_limited_by_mersen_number(2))
-    print(get_natural_numbers_limited_by_mersen_number(3))
-    print(get_natural_numbers_limited_by_mersen_number(4))
-    print(get_natural_numbers_limited_by_mersen_number(5))
-    print(get_natural_numbers_limited_by_mersen_number(6))
-    print(get_natural_numbers_limited_by_mersen_number(7))
+    # show the result
+    print(get_mersen_sequence_limited_by_natural_number(*args))
