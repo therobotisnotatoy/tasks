@@ -5,6 +5,7 @@ from unittest import main
 from tasks.task_88a import is_3_in_square_of_number
 
 
+
 class TestIs3InSquareOfNumber(TestCase):
     """Tests for function: is_3_in_square_of_number"""
 
