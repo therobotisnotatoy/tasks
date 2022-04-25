@@ -30,4 +30,6 @@ if __name__ == "__main__":
         print(get_sum_of_lasts_few(*args))
 
     except TypeError:
+
         print("Wrong input. You need to enter natural numbers")
+

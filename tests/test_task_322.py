@@ -28,10 +28,11 @@ class TestGetDivisorsList(TestCase):
 
     def test_positive_result(self):
         """Test with positive result expectation"""
+
         self.assertEqual(get_divisors_list(1), [1])
         self.assertEqual(get_divisors_list(131), [1, 131])
         self.assertEqual(get_divisors_list(16), [1, 2, 4, 8, 16])
-
+        
 
 class TestGetNumberWithLargestSumOfDivisors(TestCase):
     """Tests for function: get_number_with_largest_sum_of_divisors"""
