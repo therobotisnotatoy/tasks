@@ -3,26 +3,24 @@
 
 Beauty project is a searching platform that provides ability to make an appointment to barber shops.
 
+[![GitHub license](https://img.shields.io/github/license/ita-social-projects/BeatyProject)](https://github.com/ita-social-projects/BeatyProject/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/ita-social-projects/BeatyProject)](https://github.com/ita-social-projects/BeatyProject/issues)
 [![Pending Pull-Requests](https://img.shields.io/github/issues-pr/ita-social-projects/BeatyProject?style=flat-square)](https://github.com/ita-social-projects/BeatyProject/pulls)
-[![GitHub license](https://img.shields.io/github/license/ita-social-projects/BeatyProject)](https://github.com/ita-social-projects/BeatyProject/blob/master/LICENSE)
-[![GitHub all releases](https://img.shields.io/github/downloads/ita-social-projects/BeatyProject/total)](#)
 
 ---
 Content
+- [Project parts](#Project parts)
 - [Installation](#Installation)
-  - [Required to install](#Required-to-install)
+  - [Requirements](#Requirements)
   - [Environment](#Environment)
   - [Clone](#Clone)
-  - [Setup](#Setup)
   - [How to run local](#How-to-run-local)
   - [How to run Docker](#How-to-run-Docker)
+  - [Setup](#Setup)
+- [Project deploy](#project-deploy)
 - [Usage](#Usage)
-  - [How to run tests](#How-to-run-tests)
 - [Documentation](#Documentation)
   - [Rules and guidelines](#Rules-and-guidelines)
-  - [Testing](#Testing)
-- [Project deploy](#project-deploy)
 - [Contributing](#contributing)
   - [Before entering](#Before-entering)
   - [Git flow](#git-flow)
@@ -31,6 +29,13 @@ Content
 - [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
+
+----
+
+## Project parts
+
+There are three GitHub projects: [BeatyProject_fe](https://github.com/ita-social-projects/BeatyProject) for frontend part, [BeatyProject_be](https://github.com/ita-social-projects/BeatyProject) for backend part and [BeatyProject_admin](https://github.com/ita-social-projects/BeatyProject) for admin part. Every project has it's own issues.
+
 
 ----
 
@@ -51,10 +56,6 @@ Content
   git clone https://github.com/ita-social-projects/BeatyProject.git
   ```
 
-### Setup
-
-- TBC
-
 ### How to run local
 
 - TBC
@@ -65,29 +66,27 @@ Content
 
 - TBC
 
-----
-
-## Usage
-
-### How to run tests
+### Setup
 
 - TBC
 
 ----
 
-## Documentation
-
-### Rules and guidelines
-
-- TBC
-
-### Testing
+## Project Deploy
 
 - TBC
 
 ---
+## Usage
 
-## Project Deploy
+- TBC
+
+----
+
+
+## Documentation
+
+### Rules and guidelines
 
 - TBC
 
@@ -101,7 +100,7 @@ You're encouraged to contribute to our project if you've found any issues or mis
 
 Before sending any pull request, please discuss requirements/changes to be implemented using an existing issue or by creating a new one. All pull requests should be done into [development](https://github.com/ita-social-projects/BeatyProject/tree/development) branch.
 
-There are three GitHub projects: [BeatyProject_fe](https://github.com/ita-social-projects/BeatyProject) for frontend part, [BeatyProject_be](https://github.com/ita-social-projects/BeatyProject) for backend part and [BeatyProject_admin](https://github.com/ita-social-projects/BeatyProject) for admin part. Every project has it's own issues.
+There are [three GitHub projects](#Project-parts).
 
 Every pull request should be linked to an issue. So if you make changes on frontend, backend or admin parts you should create an issue with a link to corresponding requirement (story, task or epic).
 
@@ -154,15 +153,15 @@ Only the release should merge into the main branch!!!
 ## Teams
 
 ### Development team (Lv-689)
-[![@Serhii-Voloshyn](https://avatars.githubusercontent.com/u/78655017?v=4&s=200)](https://github.com/Serhii-Voloshyn)
-[![@YaroslavBorysko](https://avatars.githubusercontent.com/u/91908798?v=4&s=200)](https://github.com/YaroslavBorysko)
-[![@Misha86/](___&s=200)](https://github.com/Misha86/)
-[![@morento101](https://avatars.githubusercontent.com/u/80165970?v=4&s=200)](https://github.com/morento101)
-[![@shv833](https://avatars.githubusercontent.com/u/87500387?v=4&s=200)](https://github.com/shv833)
-[![@pazuzu-ua/](___&s=200)](https://github.com/pazuzu-ua/)
-[![@shevchenkoira](https://avatars.githubusercontent.com/u/90066496?v=4&s=200)](https://github.com/shevchenkoira)
-[![@therobotisnotatoy](https://avatars.githubusercontent.com/u/91069898?v=4&s=200)](https://github.com/therobotisnotatoy)
-[![@OleksiiDatsiuk](https://avatars.githubusercontent.com/u/47336461?v=4&s=200)](https://github.com/OleksiiDatsiuk)
+[![@Serhii-Voloshyn](https://github.com/Serhii-Voloshyn.png?size=200)](https://github.com/Serhii-Voloshyn)
+[![@YaroslavBorysko](https://github.com/YaroslavBorysko.png?size=200)](https://github.com/YaroslavBorysko)
+[![@Misha86/](https://github.com/Misha86.png?size=200)](https://github.com/Misha86)
+[![@morento101](https://github.com/morento101.png?size=200)](https://github.com/morento101)
+[![@shv833](https://github.com/shv833.png?size=200)](https://github.com/shv833)
+[![@pazuzu-ua/](https://github.com/pazuzu-ua.png?size=200)](https://github.com/pazuzu-ua/)
+[![@shevchenkoira](https://github.com/shevchenkoira.png?size=200)](https://github.com/shevchenkoira)
+[![@therobotisnotatoy](https://github.com/therobotisnotatoy.png?size=200)](https://github.com/therobotisnotatoy)
+[![@OleksiiDatsiuk](https://github.com/OleksiiDatsiuk.png?size=200)](https://github.com/OleksiiDatsiuk)
 
 ### Specialists team
 
@@ -182,11 +181,11 @@ Only the release should merge into the main branch!!!
 
 ---
 
-#### License
+## License
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2022 © <a href="https://softserve.academy/" target="_blank"> SoftServe IT Academy</a>.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) 
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
