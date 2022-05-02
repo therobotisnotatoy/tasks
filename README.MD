@@ -1,7 +1,8 @@
 
 # Beauty project
 
-Beauty project is a searching platform that provides ability to make an appointment to barber shops.
+Our project was created in order to bring customers closer to the service providers of the beauty industry.    
+We are trying to improve the interaction of the main participants in these processes. The client is provided with a tool for convenient registration for the services of a hairdresser, barber and other specialists. Specialists get the opportunity to use their time more efficiently. And the owners of beauty salons will be able to attract new customers and monitor the workload of their specialists.
 
 [![GitHub license](https://img.shields.io/github/license/ita-social-projects/BeatyProject)](https://github.com/ita-social-projects/BeatyProject/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/ita-social-projects/BeatyProject)](https://github.com/ita-social-projects/BeatyProject/issues)
@@ -11,22 +12,21 @@ Beauty project is a searching platform that provides ability to make an appointm
 Content
 - [Project parts](#Project parts)
 - [Installation](#Installation)
-  - [Requirements](#Requirements)
+  - [Required to install](#Required to install)
   - [Environment](#Environment)
   - [Clone](#Clone)
+  - [Setup](#Setup)
   - [How to run local](#How-to-run-local)
   - [How to run Docker](#How-to-run-Docker)
-  - [Setup](#Setup)
 - [Project deploy](#project-deploy)
 - [Usage](#Usage)
 - [Documentation](#Documentation)
-  - [Rules and guidelines](#Rules-and-guidelines)
 - [Contributing](#contributing)
   - [Before entering](#Before-entering)
   - [Git flow](#git-flow)
   - [Issue flow](#git-flow)
-- [Teams](#Teams)
 - [FAQ](#faq)
+- [Teams](#Teams)
 - [Support](#support)
 - [License](#license)
 
@@ -47,7 +47,15 @@ There are three GitHub projects: [BeatyProject_fe](https://github.com/ita-social
 
 ### Environment
 
-- TBC
+- TBC   
+
+
+Environmental variables:
+```buildoutcfg
+
+```
+
+ <a name="footnote">*</a> - to run the project you need an `.env` file in root folder
 
 ### Clone
 
@@ -56,17 +64,15 @@ There are three GitHub projects: [BeatyProject_fe](https://github.com/ita-social
   git clone https://github.com/ita-social-projects/BeatyProject.git
   ```
 
+### Setup
+
+- TBC
+
 ### How to run local
 
 - TBC
 
-###### <a name="footnote">*</a> - to run the project you need an `.env` file in root folder
-
 ### How to run Docker
-
-- TBC
-
-### Setup
 
 - TBC
 
@@ -83,10 +89,7 @@ There are three GitHub projects: [BeatyProject_fe](https://github.com/ita-social
 
 ----
 
-
 ## Documentation
-
-### Rules and guidelines
 
 - TBC
 
@@ -148,6 +151,12 @@ Only the release should merge into the main branch!!!
 
 - If issue is in work it should be placed in proper column on dashboard according to its status.
 
+---
+
+## FAQ
+
+- The section will be filled as requests are received
+
 ----
 
 ## Teams
@@ -163,21 +172,14 @@ Only the release should merge into the main branch!!!
 [![@therobotisnotatoy](https://github.com/therobotisnotatoy.png?size=200)](https://github.com/therobotisnotatoy)
 [![@OleksiiDatsiuk](https://github.com/OleksiiDatsiuk.png?size=200)](https://github.com/OleksiiDatsiuk)
 
-### Specialists team
-
-![@specialist](https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg)
-
----
-
-## FAQ
-
-- TBC
+### IT Academy team
+[![@kolyasalubov](https://github.com/kolyasalubov.png?size=200)](https://github.com/kolyasalubov)
 
 ---
 
 ## Support
 
-- TBC
+- This option is currently missing. You can contact a team member directly. You can go to the team member's page in the [teams section](#Teams) by clicking on his or her avatar.
 
 ---
 
