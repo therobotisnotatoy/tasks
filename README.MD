@@ -10,9 +10,9 @@ We are trying to improve the interaction of the main participants in these proce
 
 ---
 Content
-- [Project parts](#Project parts)
+- [Project parts](#Project-parts)
 - [Installation](#Installation)
-  - [Required to install](#Required to install)
+  - [Required to install](#Required-to-install)
   - [Environment](#Environment)
   - [Clone](#Clone)
   - [Setup](#Setup)
@@ -23,8 +23,8 @@ Content
 - [Documentation](#Documentation)
 - [Contributing](#contributing)
   - [Before entering](#Before-entering)
-  - [Git flow](#git-flow)
-  - [Issue flow](#git-flow)
+  - [Git flow](#Git-flow)
+  - [Issue flow](#Issue-flow)
 - [FAQ](#faq)
 - [Teams](#Teams)
 - [Support](#support)
@@ -34,8 +34,7 @@ Content
 
 ## Project parts
 
-There are three GitHub projects: [BeatyProject_fe](https://github.com/ita-social-projects/BeatyProject) for frontend part, [BeatyProject_be](https://github.com/ita-social-projects/BeatyProject) for backend part and [BeatyProject_admin](https://github.com/ita-social-projects/BeatyProject) for admin part. Every project has it's own issues.
-
+Our project consists of three parts which are located in different repositories on the GitHab: [BeatyProject_fe](https://github.com/ita-social-projects/BeatyProject) for the frontend part, [BeatyProject_be](https://github.com/ita-social-projects/BeatyProject) for the backend part and [BeatyProject_admin](https://github.com/ita-social-projects/BeatyProject) for the admin part.
 
 ----
 
@@ -103,7 +102,7 @@ You're encouraged to contribute to our project if you've found any issues or mis
 
 Before sending any pull request, please discuss requirements/changes to be implemented using an existing issue or by creating a new one. All pull requests should be done into [development](https://github.com/ita-social-projects/BeatyProject/tree/development) branch.
 
-There are [three GitHub projects](#Project-parts).
+There are [three GitHub projects](#Project-parts). Every project has it's own issues.
 
 Every pull request should be linked to an issue. So if you make changes on frontend, backend or admin parts you should create an issue with a link to corresponding requirement (story, task or epic).
 
